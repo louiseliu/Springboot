@@ -4,7 +4,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 public class JCLTest {
 	
-	private static Log log = LogFactory.getLog(JCLTest.class);
+	private static final Log log = LogFactory.getLog(JCLTest.class);
 	
 	public static void main(String[] args) {
 		log.info("JCL test");
